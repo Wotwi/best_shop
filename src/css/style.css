@@ -98,6 +98,7 @@ h2.secondary__hdl {
     flex-direction: column;
     align-items: center;
     max-height: 33.1875rem;
+    padding-bottom: 7.761875rem;
     height: 100%;
     text-align: center;
 }
