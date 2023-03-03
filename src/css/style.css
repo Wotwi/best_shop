@@ -9,6 +9,11 @@
     margin-inline: auto;
 }
 
+h2.secondary__hdl {
+    font-family: Raleway, sans-serif;
+    font-weight: 400;
+}
+
 .main__nav {
     width: 100%;
     display: flex;
@@ -55,8 +60,6 @@
 }
 
 .hero .hero__hdl {
-    font-family: Raleway, sans-serif;
-    font-weight: 400;
     font-size: 3.0625rem;
     margin-top: 8.125rem;
 }
@@ -88,3 +91,12 @@
     width: 100%;
     overflow: hidden;
 }
+
+.stats__box{}
+
+.stats__box .stats__hdl {}
+.stats__box .stats__data {}
+.stats__box .stats__data__item {}
+
+.stats__data__item .stats__numbers {}
+.stats__data__item .stats__desc {}
