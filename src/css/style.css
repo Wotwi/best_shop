@@ -5,7 +5,7 @@
 
 .container {
     width: 100%;
-    max-width: 1352px;
+    max-width: 84.5rem;
     margin-inline: auto;
 }
 
@@ -163,12 +163,123 @@ h2.secondary__hdl {
     font-weight: 400;
 }
 
-.benefits__box {}
+.benefits__box {
+    background-color: #F7F7F7;
+    padding-top: 7.526%;
+    padding-bottom: 7.526%;
+}
 
-.benefits__box .benefits__element {}
-.benefits__box .benefits__element .benefits__element__hdl {}
-.benefits__box .benefits__element .benefits__element__text {}
-.benefits__box .benefits__element .benefits__element__img {}
+.benefits__box .benefits__element {
+    width: 69.127%;
+    height: 23.125rem;
+    background-color: white;
+    margin-inline: auto;
+    border: 1px solid #E8E9ED;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 105px;
+}
 
-.benefits__box .benefits__img__wrapper {}
+.benefits__element__hdl {
+    margin-bottom: 1.875rem;
+    font-size: 2.25rem;
+    width: 60%;
+}
+.benefits__element__p {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: justify;
+}
 
+span.benefits__element__text {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+span::after {
+    border-bottom: 4px solid #FB3B64;
+}
+
+.benefits__element__text:first-child {
+    margin-left: 2.25rem;
+}
+
+.benefits__element__text:nth-child(2) {
+    margin-right: 2.25rem;
+}
+
+.benefits__box .benefits__element .benefits__element__img {
+
+}
+
+.benefits__element--last {
+    display: flex;
+    justify-content: center;
+    margin-top: 105px;
+}
+
+.benefits__box .benefits__element--noImg {
+    width: 38.317%;
+    height: 23.25rem;
+    display: flex;
+    background-color: #fff;
+    border: 1px solid #E8E9ED;
+    margin-right: 25px;
+}
+
+.benefits__element--last .benefits__element__text{
+    width: 74%;
+}
+
+.benefits__element--last .benefits__element__hdl{
+    width: 100%;
+}
+
+.benefits__box .benefits__img__wrapper {
+    width: 27.06%;
+    height: 23.25rem;
+    background-color: #55DFB4;
+    margin-left: 25px;
+}
+
+img[src$="Macbook.png"] {
+    width: 24.1525rem;
+    height: 13.6875rem;
+    transform: rotate(-45deg);
+    position: relative;
+    top: 6.3125rem;
+    right: 8.5rem;
+}
+
+img[src$="iPhone.png"] {
+    width: 26.625rem;
+    height: 20.5rem;
+    position: relative;
+    top: 20px;
+}
+
+img[src$="Trumpet.png"] {
+    width: 67.211%;
+    height: 56.14%;
+}
+
+.shape--circle {
+    max-width: 20rem;
+    height: 86.486%;
+    background-color: #07ACE6;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+
+.shape--diamond {
+    width: 200px;
+    height: 200px;
+    background-color: #FB3B64;
+    border-radius: 2.5625rem;
+    transform: rotate(45deg);
+    margin-right: 50px;
+}
